@@ -6,6 +6,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  .background {
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
 }
 
 code {
